@@ -41,9 +41,12 @@
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InventoryWorkBookClass.cs" />
+    <Compile Include="InvXMLFile.cs" />
     <Compile Include="UserWBookWSheet.cs">
       <SubType>Form</SubType>
     </Compile>
